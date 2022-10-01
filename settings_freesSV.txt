@@ -1,0 +1,49 @@
+ok
+feeder M3 S1000
+ok
+feeder M5 S0
+ok
+feeder M3 S1000
+ok
+feeder M5 S0
+ok
+client $$
+$0=10 (Step pulse time, μs)
+$1=254 (Step idle delay, ms)
+$2=0 (Step pulse invert, mask)
+$3=0 (Step direction invert, mask)
+$4=0 (Invert step enable pin, boolean)
+$5=0 (Invert limit pins, boolean)
+$6=0 (Invert probe pin, boolean)
+$10=2 (Status report options, mask)
+$11=0.020 (Junction deviation, mm)
+$12=0.002 (Arc tolerance, mm)
+$13=0 (Report in inches, boolean)
+$20=1 (Soft limits enable, boolean)
+$21=0 (Hard limits enable, boolean)
+$22=1 (Homing cycle enable, boolean)
+$23=27 (Homing direction invert, mask)
+$24=250.000 (Homing locate feed rate, mm/min)
+$25=1000.000 (Homing search seek rate, mm/min)
+$26=250 (Homing switch debounce delay, ms)
+$27=5.000 (Homing switch pull-off distance, mm)
+$30=12000 (Maximum spindle speed, rpm)
+$31=550 (Minimum spindle speed, rpm)
+$32=0 (Laser-mode enabled as spindle, boolean)
+$100=80.000 (X-axis travel resolution, step/mm)
+$101=80.000 (Y-axis travel resolution, step/mm)
+$102=200.000 (Z-axis travel resolution, step/mm)
+$103=80.000
+$110=6000.000 (X-axis maximum rate, mm/min)
+$111=6000.000 (Y-axis maximum rate, mm/min)
+$112=3000.000 (Z-axis maximum rate, mm/min)
+$113=6000.000
+$120=150.000 (X-axis acceleration, mm/sec^2)
+$121=150.000 (Y-axis acceleration, mm/sec^2)
+$122=60.000 (Z-axis acceleration, mm/sec^2)
+$123=150.000
+$130=1105.000 (X-axis maximum travel, mm)
+$131=1205.000 (Y-axis maximum travel, mm)
+$132=165.000 (Z-axis maximum travel, mm)
+$133=1205.000
+ok
